@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "type": "module",
   "description": "",
+  "bin": {
+    "gendiff": "gendiff.js" 
+  },
   "main": "index.js",
   "scripts": {
+    "install-global": "npm install -g .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
 }
