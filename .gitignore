@@ -15,5 +15,6 @@ package-lock.json
 pnpm-lock.yaml
 yarn.lock
 node_modules/
+gendiff.cast
 *.log
 coverage
