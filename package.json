@@ -4,16 +4,18 @@
   "type": "module",
   "description": "",
   "bin": {
-    "gendiff": "gendiff.js" 
+    "gendiff": "gendiff.js"
   },
-  "main": "index.js",
+  "main": "gendiff.js",
   "scripts": {
+    "start": "node gendiff.js",
     "install-global": "npm install -g .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^12.1.0"
+    "commander": "^12.1.0",
+    "lodash": "^4.17.21"
   }
 }
