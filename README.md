@@ -3,5 +3,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/aa17a876d194b2d0ab4e/maintainability)](https://codeclimate.com/github/Vlad-disc/frontend-project-46/maintainability)
 
+[![Test Coverage](https://api.codeclimate.com/v1/badges/aa17a876d194b2d0ab4e/test_coverage)](https://codeclimate.com/github/Vlad-disc/frontend-project-46/test_coverage)
+
 lesson 4 - add genDiff
 [![asciicast](https://asciinema.org/a/pz0ypueZo5wiTS1mAoxm0doZ8.svg)](https://asciinema.org/a/pz0ypueZo5wiTS1mAoxm0doZ8)
