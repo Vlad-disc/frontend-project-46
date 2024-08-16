@@ -1,3 +1,4 @@
+/* eslint no-underscore-dangle: 0 */
 import globals from "globals";
 
 import path from "path";

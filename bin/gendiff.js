@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { program } from 'commander';
 import path from 'path';
-import parseFile from '../src/parser.js';
+import parseFile from '../src/pars.js';
 import genDiff from '../src/index.js';
 
 program
