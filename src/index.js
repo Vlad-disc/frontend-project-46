@@ -1,6 +1,25 @@
-import _ from 'lodash';
+import path from 'path';
+import buildDiff from './buildDiff.js';
+import getFormat from './formatters/index.js';
+import readFile from './reader.js';
+import parse from './parsers.js';
 
-const genDiff = (file1, file2) => {
+const dataFromFile = (filepath) => {
+  const ext = path.extname(filepath).slice(1);
+  const reader = readFile(filepath);
+  return parse(reader, ext);
+};
+
+const genDiff = (file1, file2, format = 'stylish') => {
+  const data1 = dataFromFile(file1);
+  const data2 = dataFromFile(file2);
+  const getTree = buildDiff(data1, data2);
+  return getFormat(getTree, format);
+};
+
+export default genDiff;
+
+/* const genDiff = (file1, file2) => {
   const result = [];
   const keys = _.union(_.keys(file1), _.keys(file2));
 
@@ -17,9 +36,7 @@ const genDiff = (file1, file2) => {
     }
   });
 
-  return `{ 
+  return `{
 ${result.join('\n')}
 }`;
-};
-
-export default genDiff;
+}; */
