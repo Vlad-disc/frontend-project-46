@@ -25,8 +25,8 @@ const getFormatStylish = (diffTree) => {
         return createStrWithSing(node.value, '-');
       case 'unchanged':
         return createStrWithSing(node.value, ' ');
-      case 'changed':
-        return `${createStrWithSing(node.value1, '-')}${createStrWithSing(node.value2, '+')}`;
+      case 'updated':
+        return `${createStrWithSing(node.oldValue, '-')}${createStrWithSing(node.newValue, '+')}`;
       case 'nested':
         return `${indent(depth)}  ${node.key}: {\n${iter(node.children, depth + 1).join('')}${indent(depth)}  }\n`;
       default:
