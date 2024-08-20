@@ -5,20 +5,40 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/aa17a876d194b2d0ab4e/test_coverage)](https://codeclimate.com/github/Vlad-disc/frontend-project-46/test_coverage)
 
-lesson 3 - gendiff json
+
+# Описание проекта
+
+Второй проект "Вычислитель отличий". Данный проект представляется из себя созднание функции "Gendiff" для сравнения файлов различного формата. В частности в данном проекте идет сравнение файлов формата "json" и "yaml".
+
+# Минимальные требования
+
+1. Установить на свой компьютер VSCode
+2. Далее для запуска должно быть установлена последняя версия Node.js
+3. Должен быть установлен npm
+
+# Инструкция по установке
+
+1. Клонируйте репозиторий проекта на свой компьютер используя команду git clone. В результате клонирования репозитерия в вашей файловой системе появиться корневая директория проекта.
+2. Зайдите в клонированный репозиторий в консоли.
+3. Для начала сравнения файлов стоит просмотреть функционал функции использовав флажок -h
+4. Приступаем к сравению
+
+## Примеры запуска функции
+
+# Comparing flat files (json)
 [![asciicast](https://asciinema.org/a/672810.svg)](https://asciinema.org/a/672810)
 
 
-lesson 6 - gendiff yaml
+# Comparing flat files (yaml)
 [![asciicast](https://asciinema.org/a/GMCVE9w0EkaQzSsXuriNZjIyL.svg)](https://asciinema.org/a/GMCVE9w0EkaQzSsXuriNZjIyL)
 
 
-lesson 7 - Recursive comparison
+# Recursive comparison
 [![asciicast](https://asciinema.org/a/C3WFPSiCcWJ3pXiq4BLHdNvta.svg)](https://asciinema.org/a/C3WFPSiCcWJ3pXiq4BLHdNvta)
 
-lesson 8 - plain format
+# Format plain
 [![asciicast](https://asciinema.org/a/qGVYPjCvhN8VVr4XhNtw88YoA.svg)](https://asciinema.org/a/qGVYPjCvhN8VVr4XhNtw88YoA)
 
-lesson 9 - json format
+# Format json
 
 [![asciicast](https://asciinema.org/a/TVW2tVBk2alE88Eg546k7cSlw.svg)](https://asciinema.org/a/TVW2tVBk2alE88Eg546k7cSlw)
