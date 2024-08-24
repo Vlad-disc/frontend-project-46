@@ -10,7 +10,7 @@
   "scripts": {
     "gendiff": "node bin/gendiff.js",
     "install-global": "npm install -g .",
-    "test": "npx jest --watch"
+    "test": "npx jest --colors --runInBand --bail"
   },
   "author": "",
   "license": "ISC",
