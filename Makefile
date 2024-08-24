@@ -4,9 +4,14 @@ publish:
 lint:
 	npx eslint .
 
-test:
-	npm test
+fix: 
+	npx eslint --fix .
 
 gendiff -h:
 	node bin/gendiff.js
 
+test:
+	npm test
+
+test-coverage:   	
+	npm test -- --coverage --coverageProvider=v8

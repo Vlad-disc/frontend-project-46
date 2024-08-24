@@ -25,20 +25,20 @@
 
 ## Примеры запуска функции
 
-# Comparing flat files (json)
+# Сравнение плоских файлов (json)
 [![asciicast](https://asciinema.org/a/672810.svg)](https://asciinema.org/a/672810)
 
 
-# Comparing flat files (yaml)
+# Сравнение плоских файлов (yaml)
 [![asciicast](https://asciinema.org/a/GMCVE9w0EkaQzSsXuriNZjIyL.svg)](https://asciinema.org/a/GMCVE9w0EkaQzSsXuriNZjIyL)
 
 
-# Recursive comparison
+# Рекурсивное сравнение
 [![asciicast](https://asciinema.org/a/C3WFPSiCcWJ3pXiq4BLHdNvta.svg)](https://asciinema.org/a/C3WFPSiCcWJ3pXiq4BLHdNvta)
 
-# Format plain
+# Плоский формат
 [![asciicast](https://asciinema.org/a/qGVYPjCvhN8VVr4XhNtw88YoA.svg)](https://asciinema.org/a/qGVYPjCvhN8VVr4XhNtw88YoA)
 
-# Format json
+# Формат json
 
 [![asciicast](https://asciinema.org/a/TVW2tVBk2alE88Eg546k7cSlw.svg)](https://asciinema.org/a/TVW2tVBk2alE88Eg546k7cSlw)

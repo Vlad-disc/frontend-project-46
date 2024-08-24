@@ -1,3 +1,4 @@
+/* eslint no-underscore-dangle: 0 */
 import { fileURLToPath } from 'url';
 import fs from 'fs';
 import path from 'path';
