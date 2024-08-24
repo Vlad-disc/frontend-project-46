@@ -1,8 +1,8 @@
 {
-  "name": "@hexlet/code",
+  "name": "frontend-project-46",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "[![hexlet-check](https://github.com/Vlad-disc/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Vlad-disc/frontend-project-46/actions/workflows/hexlet-check.yml)",
   "bin": {
     "gendiff": "bin/gendiff.js"
   },
