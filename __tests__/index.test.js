@@ -1,4 +1,4 @@
-import { describe, expect, test } from '@jest/globals';
+import { describe, expect } from '@jest/globals';
 import readFile from '../src/reader.js';
 import genDiff from '../src/index.js';
 
