@@ -11,7 +11,7 @@ gendiff -h:
 	node bin/gendiff.js
 
 test:
-	npx jest
+	NODE_OPTIONS=--experimental-vm-modules npx jest
 
 test-coverage:   	
 	npm test -- --coverage --coverageProvider=v8
