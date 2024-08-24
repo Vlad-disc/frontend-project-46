@@ -16,6 +16,7 @@ export default [
   ...compat.extends("airbnb"),
   {
     rules: {
+      'import/extensions': 'off',
       'no-underscore-dangle': [
         'error',
         {
