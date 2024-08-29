@@ -10,8 +10,7 @@
   "scripts": {
     "gendiff": "node bin/gendiff.js",
     "install-global": "npm install -g .",
-    "test": "npx jest --runInBand --bail",
-    "test-coverage": "npm test -- --coverage --coverageProvider=v8"
+    "test": "npx jest" 
   },
   "author": "",
   "license": "ISC",
