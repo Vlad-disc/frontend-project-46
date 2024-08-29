@@ -11,7 +11,7 @@ describe('check output', () => {
   ];
 
   test.each(testFormats)(
-    'should generate correct output for format %s',
+    'correct tests',
     async (file1, file2, expectedFile, format = 'stylish') => {
       const result = await genDiff(file1, file2, format);
       const expected = await readFile(expectedFile);

@@ -10,9 +10,9 @@ const dataFromFile = (filepath) => {
   return parse(reader, ext);
 };
 
-const genDiff = (file1, file2, format = 'stylish') => {
-  const data1 = dataFromFile(file1);
-  const data2 = dataFromFile(file2);
+const genDiff = (filpath1, filepath2, format = 'stylish') => {
+  const data1 = dataFromFile(filpath1);
+  const data2 = dataFromFile(filepath2);
   const getTree = buildDiff(data1, data2);
   return getFormat(getTree, format);
 };
