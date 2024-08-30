@@ -6,7 +6,7 @@
   "bin": {
     "gendiff": "bin/gendiff.js"
   },
-  "main": "bin/gendiff.js",
+  "main": "index.js",
   "scripts": {
     "gendiff": "node bin/gendiff.js",
     "install-global": "npm install -g .",

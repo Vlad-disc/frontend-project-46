@@ -1,8 +1,7 @@
 import { describe, expect, test } from '@jest/globals';
-import genDiff from '../src/index.js';
 import fs from 'fs';
+import genDiff from '../src/index.js';
 import absolutePath from '../src/utils.js';
-
 
 describe('check output', () => {
   const testFormats = [
