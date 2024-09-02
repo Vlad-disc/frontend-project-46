@@ -13,9 +13,9 @@ describe('check output', () => {
 
   test.each(testFormats)(
     'correct tests',
-    async (file1, file2, expectedFile, format = 'stylish') => {
-      const result = await genDiff(absolutePath(file1), absolutePath(file2), format);
-      const expected = await fs.readFileSync(absolutePath(expectedFile), 'utf-8');
+    (file1, file2, expectedFile, format = 'stylish') => {
+      const result = genDiff(absolutePath(file1), absolutePath(file2), format);
+      const expected = fs.readFileSync(absolutePath(expectedFile), 'utf-8');
       expect(result.trim()).toBe(expected.trim());
     },
   );
